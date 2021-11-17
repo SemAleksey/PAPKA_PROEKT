@@ -14,15 +14,3 @@ for i in random:
         max = i
 print('Максимальная цифра:', max) 
     
-# random = input('Введите число: ')
-# print(random[3])
-# a = 0
-# b = 0
-# print(random[a])
-# # print(random[a + 1])
-# while random[a] > random[a + 1]:
-#     print(random[a])
-#     b = a
-#     a += 1
-    
-      
