@@ -15,5 +15,5 @@ def fibonacci(n, m):
         x += 1
     row = row[n:]    
     return row
-print(fibonacci(0, m))    
-print(fibonacci(n, m))
+print('Исходный ряд ', fibonacci(0, m))    
+print('Искомый ряд  ', fibonacci(n, m))
