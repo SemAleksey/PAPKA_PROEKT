@@ -53,42 +53,42 @@ path = os.getcwd()
 '''
 Ниже код для удаления указанных в скобках директорий 
 '''
-# try:
-#     os.rmdir('dir_1')
-# except:
-#     print('dir_1 - Такого файла не существует')    
-# try:
-#     os.rmdir('dir_2')
-# except:
-#     print('dir_2 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_3')
-# except:
-#     print('dir_3 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_4')
-# except:
-#     print('dir_4 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_5')
-# except:
-#     print('dir_5 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_6')
-# except:
-#     print('dir_6 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_7')
-# except:
-#     print('dir_7 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_8')
-# except:
-#     print('dir_8 - Такого файла не существует') 
-# try:
-#     os.rmdir('dir_9')
-# except:
-#     print('dir_9 - Такого файла не существует')
+try:
+    os.rmdir('dir_1')
+except:
+    print('dir_1 - Такого файла не существует')    
+try:
+    os.rmdir('dir_2')
+except:
+    print('dir_2 - Такого файла не существует') 
+try:
+    os.rmdir('dir_3')
+except:
+    print('dir_3 - Такого файла не существует') 
+try:
+    os.rmdir('dir_4')
+except:
+    print('dir_4 - Такого файла не существует') 
+try:
+    os.rmdir('dir_5')
+except:
+    print('dir_5 - Такого файла не существует') 
+try:
+    os.rmdir('dir_6')
+except:
+    print('dir_6 - Такого файла не существует') 
+try:
+    os.rmdir('dir_7')
+except:
+    print('dir_7 - Такого файла не существует') 
+try:
+    os.rmdir('dir_8')
+except:
+    print('dir_8 - Такого файла не существует') 
+try:
+    os.rmdir('dir_9')
+except:
+    print('dir_9 - Такого файла не существует')
 
     
 ''' Еще вариант для создания директорий '''

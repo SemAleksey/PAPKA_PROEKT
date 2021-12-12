@@ -57,8 +57,10 @@
 модуль random: http://docs.python.org/3/library/random.html
 
 """
+
 import random
 import sys
+
 
 allbarrels = 90
 x1 = 15
@@ -72,6 +74,7 @@ p1_barrels = random.sample(game_barrels, 15)
     второкого игрока(компьютер)
 '''
 p2_barrels = [i for i in game_barrels if i not in p1_barrels]
+
 ''' делим 15 цифр карточки на 3 списка по 5 цифр '''
 p1_field = [p1_barrels[:5], p1_barrels[5:10], p1_barrels[10:]]
 p2_field = [p2_barrels[:5], p2_barrels[5:10], p2_barrels[10:]]

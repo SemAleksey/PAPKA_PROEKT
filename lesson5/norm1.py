@@ -22,6 +22,6 @@ line = 'mtMmEZUOmcqWiryMQhhTxqKdSTKCYEJlEZCsGAMkgAYEOmHBSQsSUHKvSfbmxULaysmNO'\
        'zTYwZAiRwycdlHfyHNGmkNqSwXUrxGc'
 
 import re
-template = r'([a-z]+)[A-Z]+([a-z]+)+'
+template = '([a-z]+)[A-Z]+([a-z]+)+'
 result = re.findall(template, line)       
 print(result)
