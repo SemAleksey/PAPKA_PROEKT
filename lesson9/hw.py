@@ -5,8 +5,12 @@ class Tag:
 class TagFactory:
     def create_tag(self, tag):
         self.tag = tag
-        a = '<' + self.tag + '>' + '</' + self.tag + '>'
-        return a
+        if self.tag == 'image':
+            return '<img>'
+        elif self.tag == '':
+            return '<tag>''</tag>'
+        else:
+            return '<{0}></{0}>'.format(self.tag)
 
 
 class Image(Tag):
