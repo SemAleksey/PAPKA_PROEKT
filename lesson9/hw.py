@@ -1,5 +1,6 @@
 class Tag:
-    pass
+    def __init__(self):
+        pass
 
     
 class TagFactory:
