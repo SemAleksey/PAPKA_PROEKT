@@ -30,6 +30,8 @@ class Image(Tag):
         self.tag = 'img'
         self.src = src
 
+        
+
     def get_html(self):
         return "<{0} src='{1}'>".format(self.tag, self.src)
 
